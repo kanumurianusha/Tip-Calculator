@@ -1,5 +1,5 @@
 function calculateTip(event){
-    
+    event.preventDefault();
     const billAmount=parseFloat(document.getElementById("billAmount").value);
     const percentageTip=parseFloat(document.getElementById("percentageTip").value);
     const errorMessage = document.getElementById("errorMessage");
@@ -19,5 +19,5 @@ function calculateTip(event){
         tip.value = tip1.toFixed(2);
         total.value = total1.toFixed(2);
         errorMessage.textContent = "";
-        event.preventDefault();
+        
 }
