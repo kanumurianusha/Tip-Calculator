@@ -1,0 +1,52 @@
+.flex-container
+{
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+    height: auto;
+    width: auto;
+    
+}
+.flex-container1
+{
+    display:flex;
+    flex-direction:row; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+    height: auto;
+    width: auto;
+    padding:30px;
+}
+.flex-container2
+{
+    display:flex;
+    flex-direction:row; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+    height: auto;
+    width: auto;
+    padding:30px;
+    
+}
+.flex-item1{
+     
+    text-align: center;
+}
+.flex-item{
+    padding: 10px;
+}
+.calculate{
+    text-align: center;
+    
+}
+button{
+    background-color:skyblue;
+    border-color: skyblue;
+}
+.flex-container3{
+    padding:25px;
+}
